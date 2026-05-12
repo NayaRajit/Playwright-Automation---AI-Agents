@@ -85,3 +85,4 @@ Fresh test plan for NAYA Consumer Web using the Naya_BugFix_Testing environment,
   
   5. Open Post Closing Items and verify post-closing content displays.
     - expect: Post Closing Items section loads and shows content.
+  7. Sign out 
