@@ -1,0 +1,95 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img "Naya Consumer" [ref=e8] [cursor=pointer]
+        - generic [ref=e69] [cursor=pointer]: 
+        - text: 
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: 
+        - listitem [ref=e16]:
+          - button "razit44mhj@gmail.com " [ref=e18] [cursor=pointer]:
+            - generic [ref=e19]:
+              - generic [ref=e21]: razit44mhj@gmail.com
+              - generic [ref=e23]: 
+    - list [ref=e27]:
+      - listitem [ref=e70]:
+        - generic [ref=e71]: Matter
+        - text: 
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - link " Checklist" [ref=e74] [cursor=pointer]:
+              - /url: "#/Matter/80/ClosingChecklist"
+              - generic [ref=e75]: 
+              - generic [ref=e76]: Checklist
+          - listitem [ref=e77]:
+            - link " Signature Packages" [ref=e78] [cursor=pointer]:
+              - /url: "#/Matter/80/SignaturePackages"
+              - generic [ref=e79]: 
+              - generic [ref=e80]: Signature Packages
+          - listitem [ref=e81]:
+            - link " Closing Binder" [ref=e82] [cursor=pointer]:
+              - /url: "#/Matter/80/ClosingBinder"
+              - generic [ref=e83]: 
+              - generic [ref=e84]: Closing Binder
+          - listitem [ref=e85]:
+            - link " Open Items" [ref=e86] [cursor=pointer]:
+              - /url: "#/Matter/80/OpenItems"
+              - generic [ref=e87]: 
+              - generic [ref=e88]: Open Items
+          - listitem [ref=e89]:
+            - link " Post Closing Items" [ref=e90] [cursor=pointer]:
+              - /url: "#/Matter/80/PostClosingItems"
+              - generic [ref=e91]: 
+              - generic [ref=e92]: Post Closing Items
+    - generic [ref=e28]:
+      - navigation [ref=e32]:
+        - list [ref=e33]:
+          - listitem [ref=e34]:
+            - link "" [ref=e35] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e36]: 
+          - listitem [ref=e37]:
+            - img [ref=e39]
+          - listitem [ref=e184]:
+            - generic [ref=e186]: Test Matterfor Clonedocument- Test01
+          - listitem [ref=e187]:
+            - img [ref=e189]
+          - listitem [ref=e191]:
+            - generic [ref=e193]: Closing Binder
+      - generic [ref=e195]:
+        - toolbar [ref=e197]:
+          - button "Download " [ref=e201] [cursor=pointer]:
+            - generic [ref=e202]: 
+            - generic [ref=e203]: Download
+            - generic [ref=e204]: 
+          - textbox "Search" [ref=e207]
+        - generic [ref=e212]:
+          - table [ref=e216]:
+            - rowgroup
+            - rowgroup [ref=e217]:
+              - row "Loan Documents" [ref=e218]:
+                - cell "Loan Documents" [ref=e219]:
+                  - heading "Loan Documents" [level=5] [ref=e220]
+              - row "2. Loan Document 2 R D" [ref=e221]:
+                - cell "2. Loan Document 2 R D" [ref=e222] [cursor=pointer]:
+                  - generic [ref=e223]:
+                    - generic [ref=e225]: "2."
+                    - generic [ref=e226]: Loan Document 2
+                    - generic [ref=e228]:
+                      - generic [ref=e231]:
+                        - generic [ref=e232]: R
+                        - generic [ref=e233]: D
+                      - button [ref=e235]:
+                        - generic [ref=e236]: 
+          - generic [ref=e237]: "Number of Items: 1"
+  - menu [active] [ref=e240]:
+    - menuitem "Download Full Binder" [ref=e241]:
+      - generic [ref=e243] [cursor=pointer]:
+        - generic [ref=e244]: 
+        - generic [ref=e245]: Download Full Binder
+    - menuitem "Download Selected Items" [ref=e246]:
+      - generic [ref=e248] [cursor=pointer]:
+        - generic [ref=e249]: 
+        - generic [ref=e250]: Download Selected Items

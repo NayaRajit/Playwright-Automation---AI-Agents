@@ -1,0 +1,71 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - img "Naya Consumer" [ref=e8] [cursor=pointer]
+      - generic [ref=e69] [cursor=pointer]: 
+      - text: 
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - generic [ref=e15] [cursor=pointer]: 
+      - listitem [ref=e16]:
+        - button "razit44mhj@gmail.com " [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]:
+            - generic [ref=e21]: razit44mhj@gmail.com
+            - generic [ref=e23]: 
+  - list [ref=e27]:
+    - listitem [ref=e70]:
+      - generic [ref=e71]: Matter
+      - text: 
+      - list [ref=e72]:
+        - listitem [ref=e73]:
+          - link " Checklist" [ref=e74] [cursor=pointer]:
+            - /url: "#/Matter/80/ClosingChecklist"
+            - generic [ref=e75]: 
+            - generic [ref=e76]: Checklist
+        - listitem [ref=e77]:
+          - link " Signature Packages" [ref=e78] [cursor=pointer]:
+            - /url: "#/Matter/80/SignaturePackages"
+            - generic [ref=e79]: 
+            - generic [ref=e80]: Signature Packages
+        - listitem [ref=e81]:
+          - link " Closing Binder" [ref=e82] [cursor=pointer]:
+            - /url: "#/Matter/80/ClosingBinder"
+            - generic [ref=e83]: 
+            - generic [ref=e84]: Closing Binder
+        - listitem [ref=e85]:
+          - link " Open Items" [ref=e86] [cursor=pointer]:
+            - /url: "#/Matter/80/OpenItems"
+            - generic [ref=e87]: 
+            - generic [ref=e88]: Open Items
+        - listitem [ref=e89]:
+          - link " Post Closing Items" [active] [ref=e90] [cursor=pointer]:
+            - /url: "#/Matter/80/PostClosingItems"
+            - generic [ref=e91]: 
+            - generic [ref=e92]: Post Closing Items
+  - generic [ref=e28]:
+    - navigation [ref=e32]:
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - link "" [ref=e35] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e36]: 
+        - listitem [ref=e37]:
+          - img [ref=e39]
+        - listitem [ref=e282]:
+          - generic [ref=e284]: Test Matterfor Clonedocument- Test01
+        - listitem [ref=e285]:
+          - img [ref=e287]
+        - listitem [ref=e289]:
+          - generic [ref=e291]: Post Closing Items
+    - generic [ref=e295]:
+      - generic [ref=e297] [cursor=pointer]:
+        - img "Page thumbnail" [ref=e298]
+        - generic [ref=e299]: "1"
+      - generic [ref=e300]:
+        - generic [ref=e301]:
+          - button [ref=e302] [cursor=pointer]:
+            - generic [ref=e303]: 
+          - button [ref=e304] [cursor=pointer]:
+            - generic [ref=e305]: 
+        - region [ref=e309]:
+          - generic [ref=e311]: Empty Naya Template

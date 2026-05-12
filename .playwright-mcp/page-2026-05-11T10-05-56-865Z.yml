@@ -1,0 +1,29 @@
+- generic [ref=e24]:
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - img "Naya Consumer" [ref=e28] [cursor=pointer]
+      - text: 
+    - list [ref=e31]:
+      - listitem [ref=e32]:
+        - generic [ref=e35] [cursor=pointer]: 
+      - listitem [ref=e36]:
+        - button "razit44mhj@gmail.com " [ref=e38] [cursor=pointer]:
+          - generic [ref=e39]:
+            - generic [ref=e41]: razit44mhj@gmail.com
+            - generic [ref=e43]: 
+  - list [ref=e47]
+  - generic [ref=e48]:
+    - navigation [ref=e52]:
+      - list [ref=e53]:
+        - listitem [ref=e54]:
+          - link "" [ref=e55] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e56]: 
+        - listitem [ref=e57]:
+          - img [ref=e59]
+        - listitem [ref=e61]:
+          - generic [ref=e63]: Environments
+    - generic [ref=e68]:
+      - heading "Naya_BugFix" [level=3] [ref=e70] [cursor=pointer]
+      - heading "Naya_BugFix_Testing" [level=3] [ref=e72] [cursor=pointer]
+      - heading "Naya_Current" [level=3] [ref=e74] [cursor=pointer]
