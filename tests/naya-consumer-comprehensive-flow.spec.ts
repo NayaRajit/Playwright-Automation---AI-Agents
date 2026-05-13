@@ -1,15 +1,21 @@
 // spec: specs/naya-consumer-web-test-plan.md
 // seed: tests/seed.spec.ts
 
+
 import { test, expect } from '@playwright/test';
+import * as dotenv from 'dotenv';
+dotenv.config({ path: './env/.env.local' });
+
 const credentials = require('../test-credentials.json');
+const baseURL = process.env.BASE_URL!;
 
 test.describe('NAYA Consumer Web Comprehensive Flow', () => {
   test('Comprehensive Test for Login, Environment, Matter, and Node Validations', async ({ page }) => {
     test.setTimeout(60000);
     // 1. Open https://nayaconsumertesting.z20.web.core.windows.net/.
-    await page.goto('https://nayaconsumertesting.z20.web.core.windows.net/');
+    await page.goto(baseURL);
     await page.waitForURL(/b2clogin/);
+    // await expect(page).toHaveURL(BASE_URL); 
 
     // 2. Sign in with credentials.
     await page.fill('#email', credentials.email);
