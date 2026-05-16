@@ -5,7 +5,6 @@
 import { test, expect } from '@playwright/test';
 import * as dotenv from 'dotenv';
 dotenv.config({ path: './env/.env.local' });
-
 const credentials = require('../test-credentials.json');
 const baseURL = process.env.BASE_URL!;
 
@@ -13,13 +12,18 @@ test.describe('NAYA Consumer Web Comprehensive Flow', () => {
   test('Comprehensive Test for Login, Environment, Matter, and Node Validations', async ({ page }) => {
     test.setTimeout(60000);
     // 1. Open https://nayaconsumertesting.z20.web.core.windows.net/.
-    await page.goto(baseURL);
+    await page.goto(baseURL, { timeout: 120000, waitUntil: 'domcontentloaded' });
     await page.waitForURL(/b2clogin/);
     // await expect(page).toHaveURL(BASE_URL); 
 
     // 2. Sign in with credentials.
-    await page.fill('#email', credentials.email);
-    await page.fill('#password', credentials.password);
+    await test.step('Fill email input', async () => {
+      await page.waitForSelector('#email', { state: 'visible', timeout: 60000 });
+      await page.fill('#email', credentials.email);
+    });
+    await test.step('Fill password input', async () => {
+      await page.fill('#password', credentials.password);
+    });
     await page.click('button:has-text("Sign in")');
     await page.waitForURL(/.*#\/Environment/);
 
