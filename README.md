@@ -17,3 +17,9 @@ This project contains end-to-end automated tests for the NAYA Consumer Web appli
 - Create an `.env.local` file inside the `env/` folder.
 - Define the `BASE_URL` environment variable pointing to the NAYA Consumer Web test URL
 - Create a  `test-credential.json` file define the email and passoword variable to store your credentials.
+
+
+## Next Plan
+- create a test case for: Naya Testing env
+- Create a full flage E2E test script
+-
